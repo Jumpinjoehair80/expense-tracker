@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  width: 700px;
+  text-align: center;
+  padding: 34px;
+  border: 2px solid #000;
+  border-radius: 15px;
+  margin-top: 50px;
+}
+
+.header {
+  font-size: 3rem;
+}
+
+.instructions {
+  font-size: 2rem;
+  color: limegreen;
+}
+
+.name-input {
+  width: 90%;
+}
+
+.date-amount {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.btn {
+  background-color: green;
+  color: #fff;
+  margin: 20px;
+  padding: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-delete {
+  background-color: green;
+  color: #fff;
+  margin: 20px;
+  padding: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.table {
+  width: 100%; 
+}
+
+.table-headers {
+  width: 100%;
+  text-align: left;
+  margin: auto;
+  border: 1px solid #000;
+  
+}
+
+.name {
+  border: 2px solid #000;
+  width: 33%;
+  padding: 5px;
+}
+
+.date {
+  border: 2px solid #000;
+  width: 33%;
+  padding: 5px;
+}
+
+.amount {
+  border: 2px solid #000;
+  width: 33%;
+  padding: 5px;
+}
+
+.table-data {
+  text-align: left;
+  background-color: lightgrey;
+}
+
+
+
+
